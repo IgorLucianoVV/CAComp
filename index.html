@@ -44,26 +44,32 @@
                 <a class="btn btn-primary btn-xl text-uppercase" href="#services">Saiba Mais</a>
             </div>
         </header>
-         <!-- About-->
-         <section class="page-section" id="sobre">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Sobre</h2>
-                    <h3 class="section-subheading text-muted">Centro Acadêmico de Ciência da Computação</h3>
-                    <div class="row">
-                        <div class="col-lg-6 col-sm-6 mb-4">
-                            <img class="img-fluid" style="height: 100%;" src="assets/MargaretHamilton.png" alt="..." />
-                    
-
-                        </div>
-                        <div class="col-lg-6 col-sm-6 mb-4">
-                            <p class="text-muted" style="text-align: justify;">  O Centro Acadêmico de Ciência da Computação (CACOMP) da Unifor é uma entidade estudantil que representa os alunos do curso de Ciência da Computação. Nosso objetivo é promover a integração dos estudantes, defender seus interesses acadêmicos e organizar eventos que contribuam para o desenvolvimento pessoal e profissional dos alunos. Além disso, o CACOMP atua como um canal de comunicação entre os estudantes e a administração do curso, buscando sempre melhorar a qualidade do ensino e a experiência universitária.</p>
-
-                        </div>
-                    </div>
-                    </div>
+ <!-- About Section -->
+<section class="page-section" id="sobre" style="position: relative; overflow: hidden; background-color: #f8f9fa;">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-heading text-uppercase font-weight-bold">Sobre Nós</h2>
+            <h3 class="section-subheading text-muted font-italic">Centro Acadêmico de Ciência da Computação - Unifor</h3>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-4">
+                <img class="img-fluid rounded" src="assets/MargaretHamilton.png" alt="Imagem de Margaret Hamilton" />
             </div>
-        </section>
+            <div class="col-lg-6">
+                <p class="text-muted" style="text-align: justify; line-height: 1.7; font-size: 1.1rem;">
+                    O Centro Acadêmico de Ciência da Computação (CACOMP) da Unifor é uma entidade estudantil dedicada a representar e servir os alunos do curso de Ciência da Computação. Nosso compromisso é com a integração e o bem-estar dos estudantes, promovendo eventos e atividades que incentivem tanto o crescimento acadêmico quanto o desenvolvimento pessoal.
+                </p>
+                <p class="text-muted" style="text-align: justify; line-height: 1.7; font-size: 1.1rem;">
+                    Atuamos como uma ponte entre os alunos e a administração do curso, sempre buscando elevar a qualidade do ensino e melhorar a experiência universitária. Com uma abordagem colaborativa, o CACOMP trabalha incessantemente para garantir que as vozes dos estudantes sejam ouvidas e que suas necessidades sejam atendidas.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Visual Elements -->
+    <div style="position: absolute; top: -50px; left: -50px; width: 200px; height: 200px; background: rgba(0, 123, 255, 0.1); border-radius: 50%; z-index: -1;"></div>
+    <div style="position: absolute; bottom: -100px; right: -100px; width: 300px; height: 300px; background: rgba(0, 123, 255, 0.15); border-radius: 50%; z-index: -1;"></div>
+</section>
+
         <!-- Services-->
         <section class="page-section" id="produtos">
             <div class="container">
@@ -203,98 +209,133 @@
                 </div>
             </div>
         </section>
-       
-        <!-- Team-->
+        <!---Team-->
+        <style>
+            /* Remove transition effects */
+            #carouselExampleControls .carousel-item {
+                transition: none;
+            }
+        </style>
+     <section class="page-section" id="produtos">
+      <div class="container">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
+                <!-- Slide 1 -->
                 <div class="carousel-item active">
-                    <section class="page-section bg-light" id="membros">
-                        <div class="container">
-                            <div class="text-center">
-                                <h2 class="section-heading text-uppercase">Membros</h2>
-                                <h3 class="section-subheading text-muted">Diretorias</h3>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-4">
-                                    <div class="team-member">
-                                        <img class="mx-auto rounded-circle" src="assets/incognitaIcon.jpg" alt="..." />
-                                        <h4>Carlos Filho</h4>
-                                        <p class="text-muted">Presidente</p>
-                                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="team-member">
-                                        <img class="mx-auto rounded-circle" src="assets/incognitaIcon.jpg" alt="..." />
-                                        <h4>Igor Luciano</h4>
-                                        <p class="text-muted">Vice-Presidente</p>
-                                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="team-member">
-                                        <img class="mx-auto rounded-circle" src="assets/incognitaIcon.jpg" alt="..." />
-                                        <h4>Cabral</h4>
-                                        <p class="text-muted">Secretário Geral</p>
-                                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="team-member">
-                                        <img class="mx-auto rounded-circle" src="assets/incognitaIcon.jpg" alt="..." />
-                                        <h4>Carlos Filho</h4>
-                                        <p class="text-muted">Presidente</p>
-                                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="team-member">
-                                        <img class="mx-auto rounded-circle" src="assets/incognitaIcon.jpg" alt="..." />
-                                        <h4>Igor Luciano</h4>
-                                        <p class="text-muted">Vice-Presidente</p>
-                                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="team-member">
-                                        <img class="mx-auto rounded-circle" src="assets/incognitaIcon.jpg" alt="..." />
-                                        <h4>Cabral</h4>
-                                        <p class="text-muted">Secretário Geral</p>
-                                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-8 mx-auto text-center">
-                                    <p class="large text-muted">“Uma máquina consegue fazer o trabalho de 50 homens ordinários. Nenhuma máquina consegue fazer o trabalho de um homem extraordinário”. — Elbert Hubbard</p>
-                                </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-4">
+                            <div class="team-member">
+                                <img class="mx-auto rounded-circle" src="assets/incognitaIcon.jpg" alt="Carlos Filho" />
+                                <h4>Carlos Filho</h4>
+                                <p class="text-muted">Presidente</p>
+                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Carlos Filho Twitter Profile"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Carlos Filho Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Carlos Filho LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
-                    </section>
+                        <div class="col-12 col-sm-4">
+                            <div class="team-member">
+                                <img class="mx-auto rounded-circle" src="assets/incognitaIcon.jpg" alt="Igor Luciano" />
+                                <h4>Igor Luciano</h4>
+                                <p class="text-muted">Vice-Presidente</p>
+                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Igor Luciano Twitter Profile"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Igor Luciano Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Igor Luciano LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <div class="team-member">
+                                <img class="mx-auto rounded-circle" src="assets/incognitaIcon.jpg" alt="Cabral" />
+                                <h4>Cabral</h4>
+                                <p class="text-muted">Secretário Geral</p>
+                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Cabral Twitter Profile"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Cabral Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Cabral LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-12 col-sm-4">
+                            <div class="team-member">
+                                <img class="mx-auto rounded-circle" src="assets/incognitaIcon.jpg" alt="Membro 4" />
+                                <h4>Membro 4</h4>
+                                <p class="text-muted">Cargo</p>
+                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Membro 4 Twitter Profile"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Membro 4 Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Membro 4 LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <div class="team-member">
+                                <img class="mx-auto rounded-circle" src="assets/incognitaIcon.jpg" alt="Membro 5" />
+                                <h4>Membro 5</h4>
+                                <p class="text-muted">Cargo</p>
+                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Membro 5 Twitter Profile"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Membro 5 Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Membro 5 LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <div class="team-member">
+                                <img class="mx-auto rounded-circle" src="assets/incognitaIcon.jpg" alt="Membro 6" />
+                                <h4>Membro 6</h4>
+                                <p class="text-muted">Cargo</p>
+                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Membro 6 Twitter Profile"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Membro 6 Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Membro 6 LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Continue adding slides for the remaining members -->
             </div>
+            <!-- Carousel Controls -->
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Anterior</span>
+                <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Próximo</span>
+                <span class="visually-hidden">Next</span>
             </button>
         </div>
+      </div>
+     </section>
+        
+        <script>
+            // Personalizando o carrossel para deslizar um membro por vez
+            document.querySelector('#carouselExampleControls').addEventListener('slide.bs.carousel', function (e) {
+                let carousel = document.querySelector('#carouselExampleControls .carousel-inner');
+                let items = carousel.querySelectorAll('.carousel-item');
+                let activeItem = carousel.querySelector('.active');
+                let activeIndex = Array.from(items).indexOf(activeItem);
+        
+                // Controle de slides para pular apenas um membro por vez
+                if (e.direction === 'left') {
+                    for (let i = 0; i < 3; i++) {
+                        let nextIndex = (activeIndex + 1) % items.length;
+                        let nextItem = items[nextIndex];
+                        activeItem.classList.remove('active');
+                        nextItem.classList.add('active');
+                        activeItem = nextItem;
+                        activeIndex = nextIndex;
+                    }
+                } else {
+                    for (let i = 0; i < 3; i++) {
+                        let prevIndex = (activeIndex - 1 + items.length) % items.length;
+                        let prevItem = items[prevIndex];
+                        activeItem.classList.remove('active');
+                        prevItem.classList.add('active');
+                        activeItem = prevItem;
+                        activeIndex = prevIndex;
+                    }
+                }
+            });
+        </script>
+        
         
         
         <!-- Clients-->
